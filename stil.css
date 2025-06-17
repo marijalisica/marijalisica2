@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: green;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+.paragraf_2 {color:darkcyan; background-color: rgba (255, 255, 255, 0.5)}
+.novi_blok{
+	background-color: rgba(255,255, 255, 0.5);
+	padding:20px;
+	margin:20px;
+	width:50%;
+}
+
+}
+@font-face {
+	font-family: "MarijaLisica";
+	src=url("font/MarijaLisica.ttf");
+}
+h1 {
+	font-family:"MarijaLisica"
+	color: navy;
+}
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: cadetblue;
+}
+
+span {color: yellow;}
+.pozadina {
+	background-image: url("slike/pozadina.jpg");
+}
+.drugapozadina {
+	background-color: lightgray;
+}
+
+img {
+	height: 200px;
+}	
+ul {
+	padding:10px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+        }
+    li{ display: inline;
+     background-color:LightCoral;
+     padding:20px;
+     border: 2px solid IndianRed;
+}
+    li:active {backgroundcolor:IndianRed;}
+    li a { color:black;
+       font-family: "CabinSketch", sans-serif;
+	   /*font-family: "Montserrat", sans-serif; */
+	   text-transform: uppercase;
+}
+    li a:link {text-decoration:none;}
+    li a:hover {text-decoration:underline;}
+/* Navigacija*/
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+	margin: 0 15px;
+	text-align: left
+}
+nav a {
+	text decoration: none;
+	color: #007acc;
+	font-weight: bold;
+}
+video {
+	width="400"
+}
